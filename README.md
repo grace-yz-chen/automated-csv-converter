@@ -17,13 +17,13 @@ These files must be placed in the same folder.
 
 ## Python Dependencies
 
-pip install pandas numpy python-dateutil shapely (Windows)
-pip3 install pandas numpy python-dateutil shapely (Linux)
+- pip install pandas numpy python-dateutil shapely (Windows)
+- pip3 install pandas numpy python-dateutil shapely (Linux)
 
 ## How to Run Command-line Version
 
-python converter.py [input_csv] [--no-header] (Windows)
-python3 converter.py [input_csv] [--no-header] (Linux / macOS)
+- python converter.py [input_csv] [--no-header] (Windows)
+- python3 converter.py [input_csv] [--no-header] (Linux / macOS)
 
 [input_csv] can be either a relative file name such as "combination.csv", or an absolute path such as "c:/example/combination.csv". 
 The parameter "--no-header" is optional, and it indicates that the CSV file has no header row.
